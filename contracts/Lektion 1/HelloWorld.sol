@@ -10,6 +10,11 @@ contract HelloWorld {
     // Vi vill kunna skicka in ett nytt meddelande, för att uppdatera message variabeln
     // newMessage är en lokal variabel
     function setMessage(string memory newMessage) public {
-    message = newMessage; 
+        message = newMessage; 
+    }
+
+    // Read funktion
+    function getMessage() public view returns(string memory) {
+        return message;
     }
 }

@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "message",
 				"outputs": [
 					{
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/Lektion 1/HelloWorld.sol": {
-			"keccak256": "0xb6ac7aaab519a859567fffeacac1372a17a58d9bf4b708317331f59ce04271e8",
+			"keccak256": "0x5e0cb2052d4748db37f87421ac923d75d01f3c2ec3e237e539a83926d1cb8ca2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3619734a45a0e298fe5b09efc5215eee5260a24a869891694dc304382456ec53",
-				"dweb:/ipfs/QmeWZ4796MFbjeURuaFgKcyWACLVJXZZCDT8vvcW82WZE9"
+				"bzz-raw://71da2e36e4ead51fa4fe6671408cdb066534c9bb570f2611915d4fbc784b01f9",
+				"dweb:/ipfs/Qmb8hHAHjempKpWuACa59NmYnmzSaeRpiAK2cVmyZqdXML"
 			]
 		}
 	},
