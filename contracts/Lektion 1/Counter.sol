@@ -10,4 +10,16 @@ contract Counter {
         count++;
         // count += 1;
     }
+
+    function incrementByNumber(uint number) public {
+        count += number;
+    }
+
+    function decrementCount() public {
+        count--;
+    }
+
+    function decrementByNumber(uint number) public {
+        count -= number;
+    }
 }

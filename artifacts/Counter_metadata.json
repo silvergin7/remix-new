@@ -19,6 +19,39 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "decrementByNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decrementCount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "incrementByNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "incrementCount",
 				"outputs": [],
@@ -54,11 +87,11 @@
 	},
 	"sources": {
 		"contracts/Lektion 1/Counter.sol": {
-			"keccak256": "0xe42dcf84f16ce104e76ef90803502ea005e633fb63fe508d9451625f1f8d4283",
+			"keccak256": "0x88c15564d5ebc9792c01686569289861d437ba2fda273b52c595d8d5efd8ad95",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://02952fa3d020a1b14c5f7ee652272dd68b616d65d3a736b5fb1379138f1e050c",
-				"dweb:/ipfs/Qmc21BmCjzACVp2yHMUTkQz2fdo7kxD8fSm4FSVk3v9ppq"
+				"bzz-raw://52def4add4add1bceca41c38c4450a00e0eb965dcfa2396d5aea35da716df02f",
+				"dweb:/ipfs/Qmbk76Ci3VwT4gkThhWe3JWbzmQGLWRoAo16eCdwtFqRgC"
 			]
 		}
 	},
