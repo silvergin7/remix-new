@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Lektion 1/ContractOwner.sol": {
-			"keccak256": "0x59c5adf610a9ced55a1af918831e2e53c15dc5f2856efb552243f9b822c3d3e8",
+			"keccak256": "0x6306f90efea9e77a3c6e1396c73d13ee25d63901e66de144c2f82207531a48a7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9010dc5034fa537afe55c049bf650dd116d0641e355ff4d8f4232cf5c1a905c6",
-				"dweb:/ipfs/QmPUv8H7rQcbeX5vEM1x9M8CAKuCi2sDeyhv6UgSFU4oET"
+				"bzz-raw://49c850ee8d3b5860356e78766eec85a788cd9e9d356bfddf7a4ae2f9274ccc84",
+				"dweb:/ipfs/QmaWibiUa23LhsmMrX1PsYwxCcr1iwxxcYohxLNJiuQVti"
 			]
 		}
 	},
