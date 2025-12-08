@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Lektion 1/HelloWorld.sol": "HelloWorld"
+			"contracts/Lektion1/HelloWorld.sol": "HelloWorld"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -72,7 +72,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Lektion 1/HelloWorld.sol": {
+		"contracts/Lektion1/HelloWorld.sol": {
 			"keccak256": "0x5e0cb2052d4748db37f87421ac923d75d01f3c2ec3e237e539a83926d1cb8ca2",
 			"license": "MIT",
 			"urls": [
