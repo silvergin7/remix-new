@@ -17,6 +17,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Lektion 1/HelloWorld.sol": {
-			"keccak256": "0xa722a34f03d62f86f6fe293781faa45a6663ab3375c5b3532e2ee3a5fa3f0694",
+			"keccak256": "0xb6ac7aaab519a859567fffeacac1372a17a58d9bf4b708317331f59ce04271e8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://11f8c4cc73d68e1f8f3e3e63a9feee3dc2afeb230f5459c244eea5fbf7ea4409",
-				"dweb:/ipfs/QmbnFvrp4KmGxdFxCBvQy3JRwPb3DFc1YWxMbeUmtkw7gR"
+				"bzz-raw://3619734a45a0e298fe5b09efc5215eee5260a24a869891694dc304382456ec53",
+				"dweb:/ipfs/QmeWZ4796MFbjeURuaFgKcyWACLVJXZZCDT8vvcW82WZE9"
 			]
 		}
 	},
