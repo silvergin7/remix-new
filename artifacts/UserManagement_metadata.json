@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "userName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "userAge",
+						"type": "uint8"
+					}
+				],
+				"name": "setUserProfile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Lektion2/UserManagement.sol": "UserManagement"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Lektion2/UserManagement.sol": {
+			"keccak256": "0xc92f053b7be2aaaacd2e43edf87b7179520b1b6e622844fee8a006b62d531bdd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2060eb9176ae81330ce414c3bc09654db485f37eb0fadd75478ff81a5da2e648",
+				"dweb:/ipfs/Qmdc4B7QoBgx1J39yfUpAfeAtBPN7C5sVuU1BLzdLe9VjJ"
+			]
+		}
+	},
+	"version": 1
+}
