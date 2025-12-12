@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "bookTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "bookAuthor",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "bookYear",
+						"type": "uint16"
+					}
+				],
+				"name": "addBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bookCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "books",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Author",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "year",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Lektion2/LibraryLimit.sol": "LibraryLimit"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Lektion2/LibraryLimit.sol": {
+			"keccak256": "0x9b071a90af457c53144de5c4719c37f4c2e79ebdf27d6b8adc7c6d42f3bc52b9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://99c593f69138bfd79e68d6b1e028d192aef501d07df03a138bbc2e8d39fa8d00",
+				"dweb:/ipfs/QmYgQhArDqK5tM3aiNs2fVtxnnrp3TEixZ5rScY8zairPe"
+			]
+		}
+	},
+	"version": 1
+}
