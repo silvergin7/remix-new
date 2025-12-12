@@ -29,6 +29,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "bookCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -55,6 +68,45 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "removeBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "removeBookIndex",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "removeBookKeepOrder",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -86,11 +138,11 @@
 	},
 	"sources": {
 		"contracts/Lektion2/Library.sol": {
-			"keccak256": "0x5bba3c93f209dcf1b2387c87d4cd1c1525a68afcce7fb4525780e6c060b87b63",
+			"keccak256": "0x844c102dfa1b43810b9c3368f0bd0b97dd16218b62e01ffcb0b572d486225374",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ed963e4b245762ab952379383f7d545c1275771d0d7bf66ecbc3b5054d8cf6a7",
-				"dweb:/ipfs/QmTdSk8GCYFC7iaR7jBz9vb7KJC2VauLiiJsMXoBfAHjoL"
+				"bzz-raw://84126043788a95c0deda58c6b842e38c9f87c2d27c521376196ca04fa5abb71c",
+				"dweb:/ipfs/QmSdj5XhmK9N3PAq6cg5TNAebwJLb9sHR8hRqYhSDHbKyE"
 			]
 		}
 	},
