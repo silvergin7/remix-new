@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractOwner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Lektion2/ContractOwnerConstructor.sol": "ContractOwnerConstructor"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Lektion2/ContractOwnerConstructor.sol": {
+			"keccak256": "0x271fc3f3d1c0ba8e8c9449ccbd544e09449a67a29f6684bc4d877b41aacd6985",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://264bd077aea144d5631b2f3dc71fa0bc422674bf2dd37014297a790e577be0b3",
+				"dweb:/ipfs/QmU3kzYrJseCw58iKT1LEVuvo87noQy4eMf4AzvRAUE6pX"
+			]
+		}
+	},
+	"version": 1
+}
