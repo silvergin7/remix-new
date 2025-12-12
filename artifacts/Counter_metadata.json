@@ -72,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Lektion 1/Counter.sol": "Counter"
+			"contracts/Lektion1/Counter.sol": "Counter"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -86,7 +86,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Lektion 1/Counter.sol": {
+		"contracts/Lektion1/Counter.sol": {
 			"keccak256": "0x88c15564d5ebc9792c01686569289861d437ba2fda273b52c595d8d5efd8ad95",
 			"license": "MIT",
 			"urls": [

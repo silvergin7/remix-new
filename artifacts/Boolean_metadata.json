@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Lektion 1/Boolean.sol": "Boolean"
+			"contracts/Lektion1/Boolean.sol": "Boolean"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Lektion 1/Boolean.sol": {
+		"contracts/Lektion1/Boolean.sol": {
 			"keccak256": "0x5887260e7f4efd349cd7ed286bf1025170ebeae9001ec83205f2db7bad323ec0",
 			"license": "MIT",
 			"urls": [

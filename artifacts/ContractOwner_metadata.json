@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Lektion 1/ContractOwner.sol": "ContractOwner"
+			"contracts/Lektion1/ContractOwner.sol": "ContractOwner"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Lektion 1/ContractOwner.sol": {
+		"contracts/Lektion1/ContractOwner.sol": {
 			"keccak256": "0x6306f90efea9e77a3c6e1396c73d13ee25d63901e66de144c2f82207531a48a7",
 			"license": "MIT",
 			"urls": [
