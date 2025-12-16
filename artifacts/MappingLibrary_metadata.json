@@ -85,6 +85,114 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "bookAuthor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "bookTitle",
+						"type": "string"
+					}
+				],
+				"name": "deleteBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "bookAuthor",
+						"type": "string"
+					}
+				],
+				"name": "getBookCountByAuthor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "bookAuthor",
+						"type": "string"
+					}
+				],
+				"name": "getTitlesAndYears",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "bookTitles",
+						"type": "string[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "publicationYears",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "bookAuthor",
+						"type": "string"
+					}
+				],
+				"name": "getTitlesByAuthor",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "bookAuthor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "oldTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "newTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "publicationYear",
+						"type": "uint16"
+					}
+				],
+				"name": "updateBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -115,11 +223,11 @@
 	},
 	"sources": {
 		"contracts/Lektion3/MappingLibrary.sol": {
-			"keccak256": "0x22817378946c9c08097335f86b503ba71cee634747e5a9cf0136cbb6ffb234d2",
+			"keccak256": "0x50c29ab8a17b783a8c4e26c85ee10c9a4dcf811b54814278c13e3a0fab1dc006",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f085b5fb04f360f0c61c42d4271ab9428a103767b31ae39a4de5c0433609f326",
-				"dweb:/ipfs/Qmc8h3EuiuM28awmRvBytrNyeQVPThoMBwNKe3HnYjDgHN"
+				"bzz-raw://eb83518e3d4006ab5fba287c4040a75de8544a0931989c90e94ea2324a03d8ae",
+				"dweb:/ipfs/QmekDMHahxZAFmLUwjiTDJ9oocMjuE1ADpzHSuLTwZqmU6"
 			]
 		}
 	},
