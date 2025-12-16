@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "bookAuthor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "bookTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "publicationYear",
+						"type": "uint16"
+					}
+				],
+				"name": "addBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "authorBooks",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "year",
+						"type": "uint16"
+					},
+					{
+						"internalType": "bool",
+						"name": "exist",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "authorBooksTitles",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Lektion3/MappingLibrary.sol": "MappingLibrary"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Lektion3/MappingLibrary.sol": {
+			"keccak256": "0x22817378946c9c08097335f86b503ba71cee634747e5a9cf0136cbb6ffb234d2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f085b5fb04f360f0c61c42d4271ab9428a103767b31ae39a4de5c0433609f326",
+				"dweb:/ipfs/Qmc8h3EuiuM28awmRvBytrNyeQVPThoMBwNKe3HnYjDgHN"
+			]
+		}
+	},
+	"version": 1
+}
