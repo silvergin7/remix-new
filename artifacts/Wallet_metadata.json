@@ -6,6 +6,44 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "accountAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "DepositMade",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "accountAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "WithdrawalMade",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "contractBalance",
 				"outputs": [
@@ -67,11 +105,11 @@
 	},
 	"sources": {
 		"contracts/Lektion4/Wallet.sol": {
-			"keccak256": "0x2dcd2fe297827c83bb68389dbd5a322ba22306c4250f43dd2735bed53d973d09",
+			"keccak256": "0x4847f50a9ae4d5bb4d6308bc8acd6d642d66fc6e6f142bddfb66b6fd7a058bdb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7efa1418d79422071a5086c493f86b2be95435e3003bcb4424267f53b7412203",
-				"dweb:/ipfs/QmW8t5oXpV3TeL8sMUWsYjfFvkJ3HinPtGMUyYXRx3QSgp"
+				"bzz-raw://94b07e68e6ff651c96294e8731336a9039d7fc8032d396ed8b92cba65057fb41",
+				"dweb:/ipfs/QmUdeKpmZKaKsMwoivQ7Bw9BUmSrQSjCnRiwmQDh4eJeJy"
 			]
 		}
 	},

@@ -6,6 +6,9 @@ contract Wallet {
     mapping(address => uint) internal _balances;
     bool private _locked;
 
+    event DepositMade(address indexed accountAddress, uint amount);
+    event WithdrawalMade(address indexed accountAddress, uint amount);
+
     modifier noReentrancy() {
         require(!_locked, "Stop making reentrancy calls. Please hold!");
         _locked = true;
@@ -23,6 +26,8 @@ contract Wallet {
         contractBalance += msg.value;
 
         assert(contractBalance == address(this).balance);
+
+        emit DepositMade(msg.sender, msg.value);
     }
 
     function withdrawal(uint withdrawAmount) public noReentrancy hasSufficientBalance(withdrawAmount) {
@@ -36,6 +41,8 @@ contract Wallet {
         (bool success, ) = payable(msg.sender).call{value: withdrawAmount}("");
         require(success, "Transaction Failed");
 
-        assert(contractBalance == address(this).balance);              
+        assert(contractBalance == address(this).balance);
+
+        emit WithdrawalMade(msg.sender, withdrawAmount);           
     }
 }
