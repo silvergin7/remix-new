@@ -208,7 +208,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Lektion4/MappingLibraryModifier.sol": "MappingLibrary"
+			"contracts/Lektion4/MappingLibraryModifier.sol": "MappingLibraryModifier"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -223,11 +223,11 @@
 	},
 	"sources": {
 		"contracts/Lektion4/MappingLibraryModifier.sol": {
-			"keccak256": "0x50c29ab8a17b783a8c4e26c85ee10c9a4dcf811b54814278c13e3a0fab1dc006",
+			"keccak256": "0x4d0b8902493318659c2779fb4cca11f669835cccb7ba050653186208720b7f22",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eb83518e3d4006ab5fba287c4040a75de8544a0931989c90e94ea2324a03d8ae",
-				"dweb:/ipfs/QmekDMHahxZAFmLUwjiTDJ9oocMjuE1ADpzHSuLTwZqmU6"
+				"bzz-raw://cd4daf8b13d4541620edba040b7bc98ab2b4ce80798bd63861c40e4c42353472",
+				"dweb:/ipfs/QmUkjmuVY5NhxMgGR8VW66g9ynEuZUugqDmiG441LoabKA"
 			]
 		}
 	},
