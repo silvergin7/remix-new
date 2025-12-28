@@ -88,7 +88,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "withdrawal",
+				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -111,7 +111,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Lektion4/FallbackReceive.sol": "Wallet"
+			"contracts/Lektion4/FallbackReceive.sol": "FallbackReceive"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -126,11 +126,11 @@
 	},
 	"sources": {
 		"contracts/Lektion4/FallbackReceive.sol": {
-			"keccak256": "0xfd0a260e3350397b2a49ed8bb4aa0156a90925d95f2dacbcff74524a0cffeecf",
+			"keccak256": "0x48e61758b2ac46340cc5d916aefae0f5fc042695d758b9cb7e25e78f8597ddf8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15dfa58b93496a5772129ab14f6755ba9d522464c2ad84a6ec58abc7f6f24ed3",
-				"dweb:/ipfs/QmX4BWDat8YohCGmDiFsg4qnFXCLVEuHchfCAh8LxoN6k3"
+				"bzz-raw://9d57a32ff92f6a27f59cb0d352227d1f48e11fc08ddec1a77fe6e65dfd91af69",
+				"dweb:/ipfs/QmXqd18sbDDJigd6Q41tUwf6bmAcvdA66nuN9ZYyTTcRvz"
 			]
 		}
 	},

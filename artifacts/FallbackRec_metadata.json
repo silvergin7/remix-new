@@ -111,7 +111,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Lektion4/FallbackReceive.sol": "Wallet"
+			"contracts/Lektion4/FallbackReceive.sol": "FallbackRec"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -126,11 +126,11 @@
 	},
 	"sources": {
 		"contracts/Lektion4/FallbackReceive.sol": {
-			"keccak256": "0xfd0a260e3350397b2a49ed8bb4aa0156a90925d95f2dacbcff74524a0cffeecf",
+			"keccak256": "0xe6d046f97db1b29d8d5068af974c9113b29a73a5255c84bc95577c632223cd4f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15dfa58b93496a5772129ab14f6755ba9d522464c2ad84a6ec58abc7f6f24ed3",
-				"dweb:/ipfs/QmX4BWDat8YohCGmDiFsg4qnFXCLVEuHchfCAh8LxoN6k3"
+				"bzz-raw://b8f9a71101f67a3b2aeddf974b45fb37ac75c30e43052d62525b36cedf552367",
+				"dweb:/ipfs/Qmd6B3rgUnFUkKxJVGcRUSqZXeZ4D7CAWJmzVNtzBromqe"
 			]
 		}
 	},
